@@ -3,4 +3,8 @@ This contact app was made as by me (Aliter Animesh Baroi), and my friend Muntahi
 
 However, you are welcome to download and view this app. 
 
+
+| Languages: |    HTML    |     CSS      | JavaScript |    PHP     |     SQL      | 
+| :--------: | :--------: | :----------: | :--------: | :--------: | :----------: |
+
 Enjoy
