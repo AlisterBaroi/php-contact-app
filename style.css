@@ -1,0 +1,299 @@
+/* DESIGNING THE SCROLLBAR */
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ff00ea;
+}
+
+/* DESIGNING THE NAVBAR */
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #ffffff;
+    --text-secondary: #ececec;
+    --bg-primary: #00000093;
+    --bg-secondary: #141418;
+}
+
+body {
+    color: white;
+    background: white;
+    margin: 0;
+    padding: 0;
+    background: url(img/background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+/* PLACE HOLDER BOX */
+section {
+    width: 70vw;
+    height: 80vh;
+    color: white;
+    letter-spacing: 15pt;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    padding: 3vh 0;
+}
+
+section h1 {
+    text-shadow: 4px 4px 7px black;
+}
+
+/* menu options */
+li {
+    width: 15vw;
+    padding: 1vh 0;
+    margin: 2vh 0;
+}
+
+/* menu options when hovered*/
+li:hover {
+    background-color: rgba(0, 0, 0, 1);
+    outline: 1px solid purple;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 6vw;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+    z-index: 1;
+}
+
+.navbar:hover {
+    width: 16vw;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    filter: opacity(1) blur;
+}
+
+.nav-item {
+    width: 100%;
+    font-size: 150%;
+    vertical-align: middle;
+}
+
+.nav-link {
+    align-items: center;
+    height: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.link-text {
+    display: none;
+    margin-top: -5vh;
+    padding-top: -25vh;
+}
+
+.name {
+    margin: 2vh 0;
+    display: none;
+    font-size: 8pt;
+    padding: 1vh 2vw;
+    position: fixed;
+    bottom: 0;
+}
+
+.name span {
+    color: skyblue;
+}
+
+.nav-link img {
+    min-width: 1rem;
+    margin: 0 1vw;
+}
+
+
+
+.navbar:hover .link-text {
+    display: inline-block;
+}
+
+.navbar:hover .name {
+    display: inline-block;
+}
+
+.lgform {
+    width: 25vw !important;
+    margin-top: 5vh;
+    margin-bottom: 0;
+}
+
+.lgform h1 {
+    font-size: 34pt;
+    margin-bottom: 2vh;
+}
+
+.lgform th {
+    border-bottom: none;
+}
+
+.lgform td {
+    border-bottom: none;
+    margin: 0;
+}
+
+/* the table of all pages */
+table {
+    width: 67vw;
+    text-align: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    /* outline: 1px solid white; */
+    border: 1px solid white;
+    border-radius: 2vh 1vw;
+}
+
+/* table rows */
+tr {
+    width: 100vw;
+    /* height: 6vh; */
+    margin: auto;
+    text-align: center;
+
+}
+
+/* table headers */
+th {
+    width: 100vw;
+    height: 8vh;
+    border-bottom: 5px solid rgb(255, 100, 255);
+    border-spacing: 0;
+    font-size: 14pt;
+    letter-spacing: 0;
+}
+
+/* table cells */
+td {
+    width: 100vw;
+    height: 6vh;
+    font-size: 11pt;
+    letter-spacing: 0;
+    border-bottom: 1px solid skyblue;
+    padding: 0;
+    margin: 0;
+}
+
+.td1 {
+    width: 100vw;
+    height: 6vh;
+    font-size: 11pt;
+    letter-spacing: 0;
+    border-bottom: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+/* the inputs for adding infos of the "add page" */
+.add {
+    width: 15vw;
+    height: 5vh;
+    font-size: 12pt;
+    padding: 0;
+    margin: 5vh 0;
+}
+
+.add1 {
+    width: 17vw;
+    height: 5vh;
+    font-size: 12pt;
+    padding: 0;
+    margin: 3vh 0;
+}
+
+/* the "Add contact" button of the "add page" */
+.addbtn {
+    width: 20vw;
+    height: 7vh;
+    margin: 2vh 0;
+    font-weight: bolder;
+}
+
+/* when button hovered */
+.addbtn:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
+/* when button pressed */
+.addbtn:active {
+    background-color: purple;
+    color: white;
+}
+
+.addbtn1 {
+    width: 10vw;
+    height: 6vh;
+    margin: 3vh 0 2vh 0;
+    font-weight: bolder;
+}
+
+/* when button hovered */
+.addbtn1:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
+/* when button pressed */
+.addbtn1:active {
+    background-color: #ff00ea;
+    color: white;
+}
+
+/* the "Delete contact" button of the "Delete page" */
+.update {
+    width: 10vw;
+    height: 5vh;
+    margin: 2vh 0;
+    font-weight: bolder;
+}
+
+/* when button hovered */
+.update:hover {
+    background-color: plum;
+    cursor: pointer;
+}
+
+/* when button pressed */
+.update:active {
+    background-color: purple;
+    color: white;
+}
+
+footer {
+    height: 3vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    padding: 0 0 1vh 0;
+    background: rgba(255, 0, 234, 0.5);
+}
+
+footer p {
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 0vh;
+}
