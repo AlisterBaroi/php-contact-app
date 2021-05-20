@@ -1,7 +1,7 @@
-### php-contact-app
-This contact app was made by me (Aliter Animesh Baroi), as my final semester project for our web development course (Foundation in Computing, Taylors College/University). The source code, design and other contents of this website is prohibited from any form of commercial or non-commercial use, unless we have given our written concent.
+# php-contact-app
+### This contact app was made by me (Aliter Animesh Baroi), as my final semester project for our web development course (Foundation in Computing, Taylors College/University).
 
-However, you are welcome to download and view this app. 
+You are welcome to download and view this app. 
 | Languages: |    HTML    |     CSS      | JavaScript |    PHP     |     SQL      | 
 | :--------: | :--------: | :----------: | :--------: | :--------: | :----------: |
 
@@ -20,4 +20,4 @@ However, you are welcome to download and view this app.
 1. Then import the file with .sql file extension from the "MySQL database" folder from the project to phpMyAdmin.<br>
 1. Lastly, go to localhost/AuthenticationSystem to view the porject.<br>
 
-### Enjoy
+## Enjoy
