@@ -16,8 +16,8 @@ You are welcome to download and view this app.
 1. Go to download xampp instraller from https://www.apachefriends.org/index.html and install the software.<br>
 1. After installing xampp, copy this project to "htdocs" folder in the xampp install folder.<br>
 1. Start the Apache and MySQL.<br>
-1. open your desired browser and start the localhost and go to the localhost/phpMyAdmin and create a new batabase with the name "authenticationsystem".<br>
-1. Then import the file with .sql file extension from the "MySQL database" folder from the project to phpMyAdmin.<br>
-1. Lastly, go to localhost/AuthenticationSystem to view the porject.<br>
+1. open your desired browser and start the localhost and go to the localhost/phpMyAdmin and create a new batabase with the name "contactapp".<br>
+1. Then import the file contactapp.sql from the "database" folder to the phpMyAdmin.<br>
+1. Lastly, go to localhost/php-contact-app to view the porject.<br>
 
 ## Enjoy
